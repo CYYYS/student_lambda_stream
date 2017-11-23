@@ -17,17 +17,17 @@ public class Mytest {
 				System.out.println(stu);
 			}
 			System.out.println("======65=======");
-			List<Student> list2 = findMatchPerson(student,p->p.getScore()==65);
+			List<Student> list2 = findMatchPerson(student,p->p.getScore()==70);
 			for(Student stu:list2) {
 				System.out.println(stu);
 			}
 			System.out.println("======70=======");
-			List<Student> list3 = findMatchPerson(student,p->p.getScore()==65);
+			List<Student> list3 = findMatchPerson(student,p->p.getScore()==75);
 			for(Student stu:list3) {
 				System.out.println(stu);
 			}
 			System.out.println("======75=======");
-			List<Student> list4 = findMatchPerson(student,p->p.getScore()==65);
+			List<Student> list4 = findMatchPerson(student,p->p.getScore()==80);
 			for(Student stu:list4) {
 				System.out.println(stu);
 			}
